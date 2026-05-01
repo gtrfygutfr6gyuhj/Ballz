@@ -4,16 +4,16 @@ const Unblocker = require('unblocker');
 
 const app = express();
 
-// Serve static files (homepage UI)
-app.use(express.static(path.join(__dirname, 'public')));
+// Serve static files from /public
+app.use(express.static(path.join(__dirname, '../public')));
 
 // Proxy middleware
 const unblocker = new Unblocker({ prefix: '/proxy/' });
 app.use(unblocker);
 
-// Homepage fallback (if someone goes to "/")
+// Homepage route
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public/index.html'));
+  res.sendFile(path.join(__dirname, '../public/index.html'));
 });
 
 // Start server
