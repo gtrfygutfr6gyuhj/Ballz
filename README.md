@@ -1,15 +1,19 @@
 # Ballz Proxy
 
-Ballz is a Node.js-based web proxy built using Express and Unblocker.
-
-## Setup
-1. Install dependencies:
-   npm install
-
-2. Run the server:
-   node app.js
+Ballz is a Node.js-based web proxy using Express and Unblocker.  
+It allows users to browse external websites through a simple `/proxy/` prefix.
 
 ## Features
-- Web proxy
-- Custom homepage
-- Simple structure
+- Clean UI
+- Fast proxying
+- WebSocket support
+- Easy deployment
+
+## Setup
+npm install
+
+## Run
+node app.js
+
+## Usage
+/proxy/https://example.com
