@@ -1,0 +1,25 @@
+{
+  "name": "ballz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gtrfygutfr6gyuhj/Ballz.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/gtrfygutfr6gyuhj/Ballz/issues"
+  },
+  "homepage": "https://github.com/gtrfygutfr6gyuhj/Ballz#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "unblocker": "^2.3.1"
+  }
+}
